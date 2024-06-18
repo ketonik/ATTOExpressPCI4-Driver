@@ -4,7 +4,8 @@ macOS driver for the ATTO Tech SCSI Host Adapters:
 * ATTO ExpressPCI UL4S
 * ATTO ExpressPCI UL4D
 * ATTO ExpressPCI UL5D
-* ATTO ExpressPCI UL5D LP 
+* ATTO ExpressPCI UL5D LP
+* 
 ===============================================
 
 ATTO Tech no longer has this driver for public download.
@@ -19,6 +20,7 @@ Most likely is required between Mojave to Ventura, prior to Mojave it most likel
 
 
 ================================================
+
 sudo nvram boot-args="kext-dev-mode=1"
 
 Reboot to Recovery,
